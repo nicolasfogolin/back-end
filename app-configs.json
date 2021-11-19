@@ -1,0 +1,59 @@
+{
+    "connections" : [
+        {
+            "connectionId": "1bf8f674610b0f3eb6bbb795061807c19b6ef5xz",
+            "host" : {
+                "name" : "localhost",
+                "database" : "sgdatosp",
+                "port" : "1433",
+                "password" : "whitebox-32",
+                "timeout" : 10000
+            }
+        },
+        {
+            "connectionId": "1bf8f674610b0f3eb6bbb795061807c19b6ef5xx",
+            "host" : {
+                "name" : "",
+                "database" : "",
+                "port" : "",
+                "password" : "",
+                "timeout" : 0
+            }
+
+        }
+    ],
+    "errors" : [
+        {
+            "errorNum" : 1,
+            "errorDescript" : "El usuario no puede estar vacío."
+        },
+        {
+            "errorNum" : 2,
+            "errorDescript" : "La contraseña no puede estar vacía."
+        },
+        {
+            "errorNum" : 3,
+            "errorDescript" : "El nombre de usuario y/o el la contraseña son inválidos."
+        },
+        {
+            "errorNum" : 4,
+            "errorDescript" : "connectionId no es válido."
+        },
+        {
+            "errorNum" : 5,
+            "errorDescript" : "Token es inválido."
+        },
+        {
+            "errorNum" : 6,
+            "errorDescript" : "La operación no se pudo finalizar."
+        },
+        {
+            "errorNum" : 7,
+            "errorDescript" : "El parámetro es requerido o su tipo es inválido"
+        },
+        {
+            "errorNum" : 8,
+            "errorDescript" : "Las contraseñas no coinciden"
+        }
+    ]
+}
